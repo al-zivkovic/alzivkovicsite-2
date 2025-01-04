@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Geologica:wght@100..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Geologica', sans-serif;
+
+  color: rgba(255, 255, 255);
+  background-color: #212020;
+}
+
+p {
+  font-weight: 100;
+}
+
