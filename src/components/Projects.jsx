@@ -1,9 +1,20 @@
+import { Tilt } from 'react-tilt';
+import { motion } from 'framer-motion';
+
 import { projects } from "../constants";
+import { fadeIn } from "../utils/motion";
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link, deployed_link }) => {
     return (
-        <div className="cursor-pointer" onClick={() => window.open(deployed_link, "_blank")}>
-            <div className="p-5 rounded-2xl sm:w-[300px] w-full">
+        <motion.div className="cursor-pointer" variants={fadeIn("up", "spring", index * 0.5, 0.75)} onClick={() => window.open(deployed_link, "_blank")}>
+            <Tilt 
+                options={{ 
+                    max: 45,
+                    scale: 1,
+                    speed: 450,
+                }}
+                className="bg-tertiary p-5 rounded-2xl sm:w-[300px] w-full"
+            >
                 <div className='relative w-full h-[230px]'>
                     <img src={image} alt={name} className='w-full h-full object-cover rounded-2xl'/>
 
@@ -28,8 +39,8 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
                     </p>
                 ))}
                 </div>
-            </div>
-        </div>
+            </Tilt>
+        </motion.div>
     )
 }
 
@@ -38,7 +49,7 @@ const Projects = () => {
         <>
             <h1 className="text-5xl">Projects</h1>
 
-            <div className='mt-20 flex flex-wrap gap-7'>
+            <div className='mt-20 flex flex-wrap justify-center gap-7'>
                 {projects.map((project, index) => (
                 <ProjectCard 
                     key={`project-${index}`} 

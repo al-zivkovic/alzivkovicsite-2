@@ -1,7 +1,7 @@
 const projects = [
     {
       name: "CalVision",
-      description: "Developed an iOS app using React Native and Expo Go that allows users to track their caloric intake and progress towards their fitness goals. The app features an AI image recognition system that can identify food items and their caloric content.",
+      description: "Developed an iOS app using React Native, Expo Go, and Elixir that allows users to track their caloric intake and progress towards their fitness goals. The app features an AI image recognition system that can identify food items and their caloric content.",
       tags: [
         {
           name: "React Native",
@@ -12,7 +12,11 @@ const projects = [
           color: "green-text-gradient",
         },
         {
-          name: "AI",
+            name: "Elixir",
+            color: "pink-text-gradient",
+        },
+        {
+          name: "OpenAI",
           color: "pink-text-gradient",
         },
       ],
