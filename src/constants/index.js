@@ -8,7 +8,7 @@ const projects = [
           color: "blue-text-gradient",
         },
         {
-          name: "Expo Go",
+          name: "Expo",
           color: "green-text-gradient",
         },
         {
@@ -24,19 +24,23 @@ const projects = [
       source_code_link: "https://github.com/al-zivkovic/"
     },
     {
-      name: "Social Media App (Instagram Clone)",
-      description: "Developed a Full Stack Social Media Application using React, TypeScript, and Tailwind CSS. The application allows users to create an account, post images, like and edit posts, and edit their profile.",
+      name: "Nailify",
+      description: "Developed an iOS and Android app using React Native and Node.js which allows users to take photos of their nails and customize them with different colors and patterns. Using AI, the app will generate an image based on the user's input.",
       tags: [
         {
-          name: "React",
+          name: "React Native",
           color: "blue-text-gradient",
         },
         {
-          name: "TypeScript",
+          name: "Expo",
           color: "green-text-gradient",
         },
         {
-          name: "Tailwind",
+          name: "Node.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "OpenAI",
           color: "pink-text-gradient",
         },
       ],
@@ -44,21 +48,30 @@ const projects = [
       deployed_link: "https://instagram-clone-nu-red.vercel.app/"
     },
     {
-      name: "Discord Music Bot",
-      description: "Developed a discord bot that plays music from youtube in voice channels using Python and the discord.py library. The bot can play, pause, and skip songs, and display the current queue.",
+      name: "Excel Normalization Tool",
+      description: "Developed a Python application that normalizes data in LoneWolf exported Excel files to a format that can be used by the company's backend.",
       tags: [
         {
           name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "Discord",
+          name: "Pandas",
           color: "green-text-gradient",
         }
       ],
-      source_code_link: "https://github.com/al-zivkovic/discord-music-bot",
-      deployed_link: "https://github.com/al-zivkovic/discord-music-bot"
+      source_code_link: "https://github.com/al-zivkovic/excel-normalization-tool",
     }
   ];
 
-  export { projects };
+const experience = [
+  {
+    company: "Iluminai Intelligence Corporation",
+    position: "Junior Software Developer (Support & Analytics)",
+    startDate: "October, 2024",
+    endDate: "Present",
+    location: "Vancouver, BC, Canada",
+  },
+];
+
+  export { projects, experience };
