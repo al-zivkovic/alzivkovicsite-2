@@ -1,7 +1,7 @@
 const projects = [
     {
       name: "CalVision",
-      description: "Developed an iOS app using React Native, Expo Go, and Elixir that allows users to track their caloric intake and progress towards their fitness goals. The app features an AI image recognition system that can identify food items and their caloric content.",
+      description: "Developed an iOS app that allows users to track their caloric intake and progress towards their fitness goals. The app features an AI image recognition system that can identify food items and their caloric content.",
       tags: [
         {
           name: "React Native",
@@ -25,7 +25,7 @@ const projects = [
     },
     {
       name: "Nailify",
-      description: "Developed an iOS and Android app using React Native and Node.js which allows users to take photos of their nails and customize them with different colors and patterns. Using AI, the app will generate an image based on the user's input.",
+      description: "Developed an iOS and Android app that allows users to take photos of their nails and customize them with different colors and patterns. Using AI, the app will generate an image based on the user's input.",
       tags: [
         {
           name: "React Native",
@@ -44,8 +44,8 @@ const projects = [
           color: "pink-text-gradient",
         },
       ],
-      source_code_link: "https://github.com/al-zivkovic/INSTAGRAM_CLONE",
-      deployed_link: "https://instagram-clone-nu-red.vercel.app/"
+      image: "/nailify.png",
+      deployed_link: "https://github.com/al-zivkovic/nailai-app"
     },
     {
       name: "Excel Normalization Tool",
@@ -60,6 +60,7 @@ const projects = [
           color: "green-text-gradient",
         }
       ],
+      image: "/github.png",
       source_code_link: "https://github.com/al-zivkovic/excel-normalization-tool",
     }
   ];

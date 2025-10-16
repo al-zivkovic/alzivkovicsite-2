@@ -47,7 +47,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
 const Projects = () => {
     return (
         <>
-            <h1 className="text-5xl">Projects</h1>
+            <h1 className="text-5xl" id="projects">Projects</h1>
 
             <div className='mt-20 flex flex-wrap justify-center gap-7'>
                 {projects.map((project, index) => (

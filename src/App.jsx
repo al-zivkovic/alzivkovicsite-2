@@ -8,7 +8,7 @@ import Experience from "./components/Experience"
 function App() {
   return (
     <BrowserRouter>
-    <div className="flex items-center justify-center">
+    <div className="flex items-center justify-center pb-10">
       <div className="flex flex-col items-center w-[700px] gap-10">
         <Navbar />
         <Hero />
