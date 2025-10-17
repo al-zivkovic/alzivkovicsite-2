@@ -69,10 +69,10 @@ const projects = [
 const experience = [
   {
     company: "Iluminai Intelligence Corporation",
-    position: "Junior Software Developer (Support & Analytics)",
+    position: "Junior Software Developer (Support)",
     startDate: "October, 2024",
     endDate: "Present",
-    location: "Vancouver, Canada",
+    location: "Vancouver, Canada (On-site)",
     image: "/iluminai.jpg",
     descriptionPoints: [
       "Developed the React Native mobile app, replacing web portal logins with an App Store solution that reduced client processing time and accelerated the platform's adoption across brokerages.",
