@@ -10,8 +10,11 @@ const Hero = () => {
                     Iterating and productizing new ideas is what I enjoy most about software development — not to mention I love to try and "perfect" the visual design and user experience of my apps.
                 </p>
             </div>
+            <div className="mt-4">
+                <a href="/cv/Aleksandar_Zivkovic_Resume.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-600">Download my resume</a>
+            </div>
         </div>
     );
-    }
+}
 
 export default Hero;
