@@ -2,6 +2,6 @@
 
 Built with ReactJS and Tailwindcss
 
-[View Here](www.alzivkovic.com)
+[View Here](https://www.alzivkovic.com/)
 
 my email: alzivkovic@outlook.com
