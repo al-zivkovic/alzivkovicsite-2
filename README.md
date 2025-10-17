@@ -1,7 +1,7 @@
 # Personal Website
 
-alzivkovic.com
+Built with ReactJS and Tailwindcss
 
-Built with reactjs and tailwindcss
+[View Here](www.alzivkovic.com)
 
-contact me: alzivkovic@outlook.com
+my email: alzivkovic@outlook.com
