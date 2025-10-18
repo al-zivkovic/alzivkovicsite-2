@@ -62,7 +62,7 @@ const projects = [
         }
       ],
       image: "/github.png",
-      source_code_link: "https://github.com/al-zivkovic/excel-normalization-tool",
+      deployed_link: "https://github.com/al-zivkovic/excel-normalization-tool",
     }
   ];
 
