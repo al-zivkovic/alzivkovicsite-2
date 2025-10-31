@@ -19,7 +19,7 @@ function App() {
     },
     {
       component: <AdditionalInfo />,
-      id: "other-hobbies-and-interests"
+      id: "other-interests"
     },
   ]
   
