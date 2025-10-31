@@ -5,6 +5,7 @@ import Hero from "./components/Hero"
 import Projects from "./components/Projects"
 import Experience from "./components/Experience"
 import Footer from "./components/Footer"
+import AdditionalInfo from "./components/AdditionalInfo"
 
 function App() {
   const components = [
@@ -15,6 +16,10 @@ function App() {
     {
       component: <Projects />,
       id: "projects"
+    },
+    {
+      component: <AdditionalInfo />,
+      id: "other-hobbies-and-interests"
     },
   ]
   

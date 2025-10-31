@@ -5,6 +5,7 @@ import WorkHistoryIcon from '@mui/icons-material/WorkHistory';
 import CodeIcon from '@mui/icons-material/Code';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import InterestsIcon from '@mui/icons-material/Interests';
 
 const Navbar = () => {
     const scrollToId = (id) => {
@@ -55,6 +56,10 @@ const Navbar = () => {
                     <Link to="#projects" onClick={(e) => { e.preventDefault(); scrollToId('projects'); }} className="group flex items-center gap-2 hover:text-blue-500 transition-colors duration-200" aria-label="Projects" title="Projects">
                         <CodeIcon className="cursor-pointer transition-all duration-300 ease-out transform-gpu"/>
                         <span className="pointer-events-none overflow-hidden max-w-0 opacity-0 translate-x-[-8px] whitespace-nowrap text-sm transition-all duration-300 ease-out group-hover:max-w-[120px] group-hover:opacity-100 group-hover:translate-x-0">Projects</span>
+                    </Link>
+                    <Link to="#other-interests" onClick={(e) => { e.preventDefault(); scrollToId('other-interests'); }} className="group flex items-center gap-2 hover:text-blue-500 transition-colors duration-200" aria-label="Other Interests" title="Other Interests">
+                        <InterestsIcon className="cursor-pointer transition-all duration-300 ease-out transform-gpu"/>
+                        <span className="pointer-events-none overflow-hidden max-w-0 opacity-0 translate-x-[-8px] whitespace-nowrap text-sm transition-all duration-300 ease-out group-hover:max-w-[120px] group-hover:opacity-100 group-hover:translate-x-0">Other Interests</span>
                     </Link>
                     <Link to="https://github.com/al-zivkovic" className="group flex items-center gap-2 hover:text-gray-300 transition-colors duration-200" aria-label="GitHub" title="GitHub">
                         <GitHubIcon className="cursor-pointer transition-all duration-300 ease-out transform-gpu hover:scale-100"/>
